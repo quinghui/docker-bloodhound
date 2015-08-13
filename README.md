@@ -1,6 +1,5 @@
-This is the Docker image for Apache Bloodhound. 
-The image includes postgres database, apache2 web server, and apache bloodhound
-issue tracking and managing of software projects.
+This is the Docker image for Apache Bloodhound, an issues tracking and managing of software projects. 
+The image includes postgresql database, apache2 web server, and apache bloodhound.
 
 Building docker image, the image name is bloodhound, for example:
     
@@ -12,7 +11,9 @@ Executing docker with the image:
 
     docker run -d -p 8080:8080 bloodhound
 
-and then in the link http://localhost:8080/bloodhound
+the Bloodhound link, if running on local: 
+    
+    http://localhost:8080/bloodhound
 
 Admin user & passwd: 
     
